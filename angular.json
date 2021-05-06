@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "landing-page-hilman"
+  "defaultProject": "landing-page-hilman",
+  "cli": {
+    "analytics": "4290a7c3-0669-42bf-8e9a-3852850e4c44"
+  }
 }
