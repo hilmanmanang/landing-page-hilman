@@ -1,10 +1,6 @@
 <div style="text-align: center;">
   <button class="btn" (click)="decrement()">Subtract</button>
-  <app-info 
-    *ngIf="isVisible"
-    [numberInfo]="number" 
-    [nameInfo]="user"
-  ></app-info>
+  <app-info *ngIf="isVisible" [numberInfo]="number" [nameInfo]="user"></app-info>
   <button class="btn" (click)="increment()">Add</button>
   <br>
   <br>
